@@ -1,0 +1,216 @@
+/* this is index.html junk*/
+body {
+    background-color: rgb(58, 65, 153);
+}
+
+h1 {
+    text-align: center;
+    font-size: 75px;
+    color: white;
+    margin: 10px;
+    padding: 3px;
+    border: 1px rgb(0, 0, 0);
+    background-color: black;
+}
+
+ul {
+    justify-content: space-around;
+
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin: auto;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    font-size: 60px;
+}
+
+.nav {
+    width: 100%;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* from this point and below this is contacts.html*/
+
+.contactsh1 {
+    text-align: center;
+    font-size: 75px;
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    padding: 3px;
+    border: 1px rgb(0, 0, 0);
+    background-color: black;
+}
+
+.contactsbody {
+    text-align: left;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    padding: 3px;
+    border: 10px blue;
+    background-color: red;
+
+}
+
+.sports {
+    height: 150px;
+    width: 150px;
+    display: inline;
+    justify-content: space-around;
+
+
+
+}
+
+.second_container {
+    display: flex;
+    justify-content: space-around;
+    font-size: 55px;
+}
+
+.East {
+    height: 150px;
+    width: 150px;
+    display: inline;
+    justify-content: space-evenly;
+}
+
+.West {
+    height: 150px;
+    width: 150px;
+    display: inline;
+    justify-content: space-evenly;
+}
+
+.North {
+    height: 150px;
+    width: 150px;
+    display: inline;
+    justify-content: space-evenly;
+}
+
+.South {
+    height: 150px;
+    width: 150px;
+    display: inline;
+    justify-content: space-evenly;
+}
+
+.soccer_container {
+    display: flex;
+    justify-content: space-around;
+    font-size: 55px;
+}
+
+* {
+    font-family: Fjalla One;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    color: white;
+}
+
+html {
+    background-color: #000000;
+}
+
+.ptable table {
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+
+.ptable {
+    margin: 0px 0% 30px 0%;
+}
+
+th,
+td {
+    padding: 10px;
+}
+
+th {
+    background-color: black;
+    color: #ffe221;
+}
+
+.headin {
+    text-align: center;
+    text-decoration: none;
+    color: #ffe221;
+    margin: 30px;
+    display: block;
+}
+
+.wpos {
+    text-align: center;
+}
+
+.wpos td {
+    color: #77ff21;
+}
+
+.pos {
+    text-align: center;
+}
+
+.pos td {
+    color: #ff7b21;
+}
+
+table .col {
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.wpos:hover {
+    background-color: #77ff21;
+}
+
+.wpos:hover td {
+    color: #000000;
+}
+
+.pos:hover {
+    background-color: #ff7b21;
+}
+
+.pos:hover td {
+    color: #000000;
+}
+
+.players {
+    height: 150px;
+    width: 150px;
+    display: inline;
+    justify-content: space-around;
+}
+
+#stats {
+    position: absolute;
+    top: 50%;
+    left: 41%;
+    transform: translate(-50%, -50%);
+}
+
+#av25 {
+    height: 400px;
+    width: 400px;
+}
+
+.pcontainer {
+    position: relative;
+    text-align: center;
+    color: white;
+}
